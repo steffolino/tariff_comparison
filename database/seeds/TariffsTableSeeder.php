@@ -37,6 +37,10 @@ class TariffsTableSeeder extends Seeder
             ]);
 
         // And now, let's create a few tariffs in our database:
+        /**
+         * TODO: enable below for more random data
+         */
+        /**
         for ($i = 0; $i < 30; $i++) {
 
             $flatrate = $faker->randomDigit();
@@ -61,5 +65,6 @@ class TariffsTableSeeder extends Seeder
                 ]);
             }
         }
+         **/
     }
 }
