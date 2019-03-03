@@ -44,6 +44,7 @@
                 consumption: 0
             }
         },
+        /** TODO: enable create, update, delete ***/
         methods: {
             create() {
                 window.axios.get('/api/tariffs/create').then(({ data }) => {
