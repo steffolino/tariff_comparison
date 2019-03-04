@@ -13,7 +13,7 @@ open bash in root directoy:
 1. composer update
 2. php artisan serve
 3. php artisan migrate (setup database)
-4. php artisan db:seed (fill database)
+4. php artisan db:seed (fill database) - optionally uncomment below line 43 for more random data
 5. npm install
 6. npm run watch
 7. call 127.0.0.1:8000
